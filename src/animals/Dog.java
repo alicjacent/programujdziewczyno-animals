@@ -11,6 +11,6 @@ public class Dog extends Animal {
 
     @Override
     public void whoAmI() {
-        System.out.println("I am the " + type + " so I bark. I am " + age + " year(s) old.");
+        System.out.println("I am the " + type + " so I bark. My name is " + name + " and I am " + age + " year(s) old.");
     }
 }

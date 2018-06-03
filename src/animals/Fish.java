@@ -11,6 +11,6 @@ public class Fish extends Animal {
 
     @Override
     public void whoAmI() {
-        System.out.println("I am the " + type + " so I do not talk. I am " + age + " year(s) old.");
+        System.out.println("I am the " + type + " so I do not talk. My name is " + name + " and I am " + age + " year(s) old.");
     }
 }

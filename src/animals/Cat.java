@@ -11,6 +11,6 @@ public class Cat extends Animal {
 
     @Override
     public void whoAmI() {
-        System.out.println("I am the " + type + " so I do meow. I am " + age + " year(s) old.");
+        System.out.println("I am the " + type + " so I do meow. My name is " + name + " and I am " + age + " year(s) old.");
     }
 }
